@@ -1,13 +1,18 @@
-# Sample Hardhat Project
+💰 Loan Approval DApp
+A simple decentralized application (DApp) where users can upload documents, get admin approval, and request a loan. Built with HTML, JavaScript, Firebase, and Ethereum smart contract.
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+🔧 Technologies Used
+Frontend: HTML, CSS, JavaScript
 
-Try running some of the following tasks:
+Blockchain: Solidity, Ganache, MetaMask, Web3.js
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+Backend: Firebase (Realtime Database + Storage)
+
+📝 Features
+User connects MetaMask wallet
+
+Uploads identity/income documents (stored in Firebase)
+
+Admin reviews and approves/rejects docs
+
+After approval, user can request a loan (saved on blockchain)
